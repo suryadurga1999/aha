@@ -1,0 +1,96 @@
+body{ 
+background-color: #222124;
+color: white;
+overflow-y: auto;
+overflow-x: hidden;
+box-sizing: border-box;
+
+}
+.header{ 
+background-color: black;
+z-index:99;
+
+}
+.header .nav .nav-item{ 
+list-style: none;
+text-decoration: none;
+
+}
+.header .nav .nav-item .nav-link{ 
+    color:white;
+}
+.header .nav .nav-item i{ 
+
+font-size: 20px;
+color: white;
+}
+.header .nav .nav-item .button{ 
+background-color: #E14B1F;
+border-radius: 15px;
+padding:5px 10px;
+border:1px solid #E14B1F;
+color: white;
+}
+.header .sign{ 
+    color:white;
+}
+.mice img{ 
+    border-radius: 10px;
+}
+.mice h3{ 
+    margin-top:25px;
+    margin-bottom: 10px;
+}
+.thumbnail-card .thumbnail-card-text{ 
+position:absolute;
+bottom:0px;
+left:0px;
+padding-left: 15px;
+padding-bottom: 5px;
+font-weight: bold;
+font-size: 14px;
+}
+.thumbnail-card{ 
+padding:0 5px;
+}
+.thumbnail-card:hover{ 
+    transform:translateY(-20px);
+    cursor: pointer;
+    transition: 1s  ease-in;
+
+}
+.splide__track{
+    overflow: visible!important;
+}
+
+.header .nav .nav-item i{ 
+    padding:12px;
+}
+.header .nav .nav-item .btn{ 
+    background-color: #E14B1F;
+    border-radius: 20px;
+    border:1px solid #E14B1F;
+    box-shadow: none;
+}
+.header .nav .nav-item a{ 
+    text-decoration: none;
+    color:white;
+}
+.mice .splide { 
+    padding-left: 20px;
+}
+.mice .section h3{ 
+    padding-left: 20px;
+}
+.mice .section .nav{ 
+    padding-left: 20px;
+}  
+
+.mice .section .nav .image{ 
+    padding:0px 5px;
+    border: none;
+}
+.mice .section .image:hover{ 
+    transform:translateY(-20px);
+    transition:1s ease-in;
+}
